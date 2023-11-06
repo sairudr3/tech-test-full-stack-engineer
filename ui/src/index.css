@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700");
+
+/* $primary: #ff7b11; */
+
+body {
+  color: #303034;
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* NameDisplay.css */
+
+.name-display {
+  display: flex;
+  align-items: center;
+}
+
+.circle-badge {
+  background-color: #ffa600; /* Background color for the circle */
+  color: #fff; /* Text color inside the circle */
+  font-size: 24px; /* Font size for the text */
+  width: 48px; /* Total width of the circle (including text) */
+  height: 48px; /* Total height of the circle (including text) */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-right: 10px; /* Adjust the spacing to your liking */
+}
+
+.badge {
+  background-color: #ffa600;
+  color: #fff;
+  font-size: 48px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.name-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.date-time {
+  font-size: 14px;
+  color: #555;
+}
+
+
+
+.orange-text {
+    margin-right: 5px;
+    margin-left: 5px;
+    color: orange;
+}
